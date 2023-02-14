@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color:  #eee;
+}
+
+.nav_mainbox{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content:  space-between; */
+    align-items: center;
+}
+
+.navpage{
+    color: #2c3722;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navpage span{
+    color: #659e2d;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #2c3722;
+}
+
+.nav_menu li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem ;
+}
+
+.nav_menu a:hover{
+    color: #659e2d;
+    transition: 0.5s ease-in;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28rem;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+.ri-shopping-bag-line{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+i:hover{
+    color: #659e2d;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
