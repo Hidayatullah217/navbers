@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+/* NavBar Styling */
+
+#navigation-bar {
+    width: 100%;
+    display: flex;
+    background-color: #262b33;
+    justify-content: space-between;
+}
+
+.left {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left span {
+    width: 40%;
+}
+
+.left span img {
+    width: 60%;
+    margin-left: 1.4rem;
+}
+
+.left span h4 {
+    color: rgb(211, 211, 211);
+    margin-left: -22%;
+}
+
+.middle {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: -25%;
+}
+
+.middle ul {
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+
+.middle ul li a {
+    text-decoration: none;
+    color: rgb(206, 199, 199);
+    transition: .5s;
+}
+
+.middle ul li :hover {
+    color: rgb(224, 176, 41);
+}
+
+
+.right {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    margin: 10% 3%;
+    cursor: pointer;
+}
